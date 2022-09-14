@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/test', function(){
+    echo 'test';
+});
+
 Route::get('/panel', function () {
     return view('panel.index');
 })->middleware(['auth'])->name('panel');
