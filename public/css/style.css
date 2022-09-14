@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Vazirmatn;
+    src: url('../fonts/Vazirmatn-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+body{
+    font-family: Vazirmatn;
+    background-color: #EFF1F5 !important;
+}
+/* Panel */
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+#wrapper {
+    overflow-x: hidden;
+  }
+
+  #sidebar-wrapper {
+  min-height: 100vh;
+  margin-right: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+  }
+
+  #sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+  }
+
+  #sidebar-wrapper .list-group {
+  width: 15rem;
+  }
+
+  #page-content-wrapper {
+  min-width: 100vw;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+  margin-right: 0;
+  }
+
+  @media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-right: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-right: -15rem;
+  }
+  }
+/* Panel */
+/* لیست کاربران  */
+.btn1, form.btn2{
+  display: inline-block;
+}
